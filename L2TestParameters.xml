@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="urn:Row">
+  <xsd:schema targetNamespace="urn:Row" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Row">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element type="xsd:int" default="0" name="DataRowNumber" />
+          <xsd:element type="xsd:boolean" default="false" name="Active" />
+          <xsd:element type="xsd:string" default="" name="OutputFile" />
+          <xsd:element type="xsd:string" default="" name="ExpectedResource" />
+          <xsd:element type="xsd:string" default="" name="DocumentID" />
+          <xsd:element type="xsd:int" default="0" name="DocumentType" />
+          <xsd:element type="xsd:string" default="" name="PlantName" />
+          <xsd:element type="xsd:string" default="" name="ProjectName" />
+          <xsd:element type="xsd:string" default="" name="SiteServer" />
+          <xsd:element type="xsd:string" default="" name="HierarchyPath" />
+          <xsd:element type="xsd:string" default="" name="OracleAlias" />
+          <xsd:element type="xsd:string" default="" name="OracleHost" />
+          <xsd:element type="xsd:int" default="0" name="OraclePort" />
+          <xsd:element type="xsd:string" default="" name="OracleService" />
+          <xsd:element type="xsd:string" default="" name="OperatingCases" />
+          <xsd:element type="xsd:int" default="0" name="CalcPDBLoadSum" />
+          <xsd:element type="xsd:int" default="0" name="CoupledBusesInPDBLoad" />
+          <xsd:element type="xsd:int" default="0" name="CalculateTransformerLosses" />
+          <xsd:element type="xsd:int" default="0" name="LoadSummaryReportRatedConsumed" />
+          <xsd:element type="xsd:int" default="0" name="LoadSummaryReportCompensatedUncompensated" />
+          <xsd:element type="xsd:int" default="0" name="CalculateAccordingLargestLoad" />
+          <xsd:element type="xsd:boolean" default="false" name="CompareWithRevision" />
+          <xsd:element type="xsd:string" default="" name="CompareResultExpected" />
+          <xsd:element type="xsd:string" default="" name="CompareResultFile" />
+          <xsd:element type="xsd:string" default="" name="RevisionID" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <NewDataSet xmlns="urn:Row">
+    <Row>
+      <DataRowNumber>0</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>cableschedule.xlsm</OutputFile>
+      <ExpectedResource>A34\Cable Schedule_source.xlsm</ExpectedResource>
+      <DocumentID>4CE23E7437F3457E850B38BBFD405705</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>1</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlist.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List_source.xlsm</ExpectedResource>
+      <DocumentID>72A2B5C041EC43AEBAB35895DFECEF92</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>2</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>pdbschedule.xlsm</OutputFile>
+      <ExpectedResource>A34\PDB Schedule_source.xlsm</ExpectedResource>
+      <DocumentID>76263F4DE7104A6490F1F0DA8ED3B1F1</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>3</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>highvoltageinductionmotor.xlsm</OutputFile>
+      <ExpectedResource>A34\High Voltage Induction Motor_source.xlsm</ExpectedResource>
+      <DocumentID>7E7CDA0E87EF40D9932BB84147BA4E51</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>4</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlist-a.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List - A_source.xlsm</ExpectedResource>
+      <DocumentID>CFEFF8158A5441848CAA85FE58ADB349</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>2</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>1</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>5</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlist-b.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List - B_source.xlsm</ExpectedResource>
+      <DocumentID>814161889EBA49698C12E33684A6AA4C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>6</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlist-revisionmacros.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List - Revision Macros_source.xlsm</ExpectedResource>
+      <DocumentID>4167E0D08E64468B88D0494854578F58</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>7</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlist-paumacros.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List - PAU Macros_source.xlsm</ExpectedResource>
+      <DocumentID>5FD12F05EF1D42F7B2A22960F538B98F</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>8</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>highvoltageinductionmotorfreetext.xlsm</OutputFile>
+      <ExpectedResource>A34\High Voltage Induction Motor_FreeText_source.xlsm</ExpectedResource>
+      <DocumentID>C206844125634670B779D8BD84F374D5</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>9</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>cabletake-off.xlsm</OutputFile>
+      <ExpectedResource>A34\Cable Take-Off_source.xlsm</ExpectedResource>
+      <DocumentID>A5D439BC899E44A0B0DF33ADC3A63D0D</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>10</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>cablesizingsummary.xlsm</OutputFile>
+      <ExpectedResource>A34\Cable Sizing Summary_source.xlsm</ExpectedResource>
+      <DocumentID>086A1263C0454138B3B519C7D449320B</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>11</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>powerdistributionpanelschedule.xlsm</OutputFile>
+      <ExpectedResource>A34\Power Distribution Panel Schedule_source.xlsm</ExpectedResource>
+      <DocumentID>94F7687474AB4A7F86CFA4E60FFAA54E</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>12</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>refcable-refconductor.xlsm</OutputFile>
+      <ExpectedResource>A34\RefCable-RefConductor_source.xlsm</ExpectedResource>
+      <DocumentID>311E4E35B90C454687C5BBAD23E1DF89</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>13</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederloadsummaryreport.xlsm</OutputFile>
+      <ExpectedResource>A34\All Feeder Load Summary Report_source.xlsm</ExpectedResource>
+      <DocumentID>2BE6550F821A49F1AB4154F57BB02F10</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>14</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederrated-uncompensated-casea.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ALL_Feeder_Rated - Uncompensated - Case A.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>15</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederrated-compensated-caseb-useeachloadcoincidencefactor.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ALL_FEEDER_Rated - Compensated - Case B - Use each load coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>16</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-compensated-allcases-usebuspdbcoincidencefactor.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ALL_Feeder_Consumed - Compensated - All Cases - Use Bus PDB coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>17</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-uncompensated-withconvertingequipmentpowerlosescheckedcasea.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ALL_Feeder_Consumed - Uncompensated - With Converting Equipment PowerLosesChecked_CaseA.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>1</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>18</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-uncompensated-withconvertingequipmentpowerlosesuncheckedcaseb.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ALL_Feeder_Consumed - Uncompensated - With Converting Equipment PowerLosesUnchecked_CaseB.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>19</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederdonotincludecoupledbusesconsumedcompensatedcasea.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\All_Feeder_Do not include coupled buses Consumed Compensated_CaseA.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>20</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederincludecoupledbusesconnectedbycouplersonlyconsumedcompensatedcaseb.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\All_Feeder_Include coupled buses connected by couplers only Consumed Compensated_CaseB.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>1</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>21</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederincludecoupledbusesconnectedbycouplersandrisers-usebuspdbcoincidencefactor-largestconsumedcompensatedallcases.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\All_Feeder_ Include coupled buses connected by couplers and risers  - Use Bus PDB coincidence factor - Largest Consumed Compensated_AllCases.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>2</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>1</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>22</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetrated-uncompensated-casea.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Rated - Uncompensated - Case A.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>23</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetrated-compensated-caseb-useeachloadcoincidencefactor.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Rated - Compensated - Case B - Use each load coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>24</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-compensated-allcases-usebuspdbcoincidencefactor.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Consumed - Compensated - All Cases - Use Bus PDB coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>25</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-uncompensated-withconvertingequipmentpowerlosescheckedcasea.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Consumed - Uncompensated - With Converting Equipment PowerLosesChecked_CaseA.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>1</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>26</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-uncompensated-withconvertingequipmentpowerlosesuncheckedcaseb.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Consumed - Uncompensated - With Converting Equipment PowerLosesUnchecked_CaseB.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>27</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetincludecoupledbusesconnectedbycouplersonlyconsumedcompensatedcaseb.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_Include coupled buses connected by couplers only Consumed Compensated_CaseB.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>1</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>28</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetincludecoupledbusesconnectedbycouplersandrisers-usebuspdbcoincidencefactor-largestconsumedcompensatedallcases.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\MultiSheet_ Include coupled buses connected by couplers and risers  - Use Bus PDB coincidence factor - Largest Consumed Compensated_AllCases.xlsm</ExpectedResource>
+      <DocumentID>1CB5EB7507814EA2A9F8F1E6CEA74908</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>2</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>1</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>29</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>pdbloadsummary.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\PDB Load Summary.xlsm</ExpectedResource>
+      <DocumentID>31E82BC7011F4D8782514DBF776856F9</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>30</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>reportrelationstransformerresistorshortvalues.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\ReportRelations_TransformerResistor_ShortValues.xlsm</ExpectedResource>
+      <DocumentID>A410815D1AC4444DAF8F3AD732CA1BB3</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>31</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederrated-uncompensated-casea_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ALL_Feeder_Rated - Uncompensated - Case A.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>32</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederrated-compensated-caseb-useeachloadcoincidencefactor_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ALL_FEEDER_Rated - Compensated - Case B - Use each load coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>33</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-compensated-allcases-usebuspdbcoincidencefactor_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ALL_Feeder_Consumed - Compensated - All Cases - Use Bus PDB coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>34</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-uncompensated-withconvertingequipmentpowerlosescheckedcasea_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ALL_Feeder_Consumed - Uncompensated - With Converting Equipment PowerLosesChecked_CaseA.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>1</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>35</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederconsumed-uncompensated-withconvertingequipmentpowerlosesuncheckedcaseb_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ALL_Feeder_Consumed - Uncompensated - With Converting Equipment PowerLosesUnchecked_CaseB.xlsm</ExpectedResource>
+      <DocumentID>0A9A29034F7745368F6F9BFA3A64CA64</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>36</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederdonotincludecoupledbusesconsumedcompensatedcasea_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\All_Feeder_Do not include coupled buses Consumed Compensated_CaseA.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>37</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederincludecoupledbusesconnectedbycouplersonlyconsumedcompensatedcaseb_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\All_Feeder_Include coupled buses connected by couplers only Consumed Compensated_CaseB.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>1</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>38</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>allfeederincludecoupledbusesconnectedbycouplersandrisers-usebuspdbcoincidencefactor-largestconsumedcompensatedallcases_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\All_Feeder_ Include coupled buses connected by couplers and risers  - Use Bus PDB coincidence factor - Largest Consumed Compensated_AllCases.xlsm</ExpectedResource>
+      <DocumentID>B6444EDCDD8F4D1EA81E7D3DF9255528</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>2</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>1</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>39</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetrated-uncompensated-casea_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Rated - Uncompensated - Case A.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>40</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetrated-compensated-caseb-useeachloadcoincidencefactor_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Rated - Compensated - Case B - Use each load coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>41</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-compensated-allcases-usebuspdbcoincidencefactor_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Consumed - Compensated - All Cases - Use Bus PDB coincidence factor.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>42</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-uncompensated-withconvertingequipmentpowerlosescheckedcasea_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Consumed - Uncompensated - With Converting Equipment PowerLosesChecked_CaseA.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>1</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>43</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetconsumed-uncompensated-withconvertingequipmentpowerlosesuncheckedcaseb_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Consumed - Uncompensated - With Converting Equipment PowerLosesUnchecked_CaseB.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>1</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>44</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetincludecoupledbusesconnectedbycouplersonlyconsumedcompensatedcaseb_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_Include coupled buses connected by couplers only Consumed Compensated_CaseB.xlsm</ExpectedResource>
+      <DocumentID>4F4943A7029C4294869A4CA6FB155F6C</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseB,</OperatingCases>
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>1</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>45</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>multisheetincludecoupledbusesconnectedbycouplersandrisers-usebuspdbcoincidencefactor-largestconsumedcompensatedallcases_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\MultiSheet_ Include coupled buses connected by couplers and risers  - Use Bus PDB coincidence factor - Largest Consumed Compensated_AllCases.xlsm</ExpectedResource>
+      <DocumentID>1CB5EB7507814EA2A9F8F1E6CEA74908</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases>CaseA,CaseB,</OperatingCases>
+      <CalcPDBLoadSum>1</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>2</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>1</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>1</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>46</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>pdbloadsummary_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\PDB Load Summary.xlsm</ExpectedResource>
+      <DocumentID>31E82BC7011F4D8782514DBF776856F9</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>47</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>reportrelationstransformerresistorshortvalues_ORA.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS - ORACLE\ReportRelations_TransformerResistor_ShortValues.xlsm</ExpectedResource>
+      <DocumentID>A410815D1AC4444DAF8F3AD732CA1BB3</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\sel11atpora\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias>SEL11ATP</OracleAlias>
+      <OracleHost>localhost</OracleHost>
+      <OraclePort>1521</OraclePort>
+      <OracleService>SEL11ATP</OracleService>
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+    <Row>
+      <DataRowNumber>48</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>vfdcomparep0.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\VFD Compare_P0_Expected.xlsm</ExpectedResource>
+      <DocumentID>3A1CD9A86BDD43D7AD1ABB21B6493FB3</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>true</CompareWithRevision>
+      <CompareResultExpected>SEL11_CALC_REPORTS\Compare-Smart Electrical-P0-VFD Compare.xlsx</CompareResultExpected>
+      <CompareResultFile>compare-smartelectrical-p0-vfdcompare.xlsx</CompareResultFile>
+      <RevisionID>3FB1F089C4754EF986131CE33B227278</RevisionID>
+    </Row>
+    <Row>
+      <DataRowNumber>49</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>vfdcomparep1.xlsm</OutputFile>
+      <ExpectedResource>SEL11_CALC_REPORTS\VFD Compare_P1_Expected.xlsm</ExpectedResource>
+      <DocumentID>3A1CD9A86BDD43D7AD1ABB21B6493FB3</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>SEL11_CALC_REPORTS</PlantName>
+      <ProjectName>SEL11_CALC_REPORTS</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A1\U1</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>true</CompareWithRevision>
+      <CompareResultExpected>SEL11_CALC_REPORTS\Compare-Smart Electrical-P1-VFD Compare.xlsx</CompareResultExpected>
+      <CompareResultFile>compare-smartelectrical-p1-vfdcompare.xlsx</CompareResultFile>
+      <RevisionID>DDC2396957284E1085D4C533B70C8CCE</RevisionID>
+    </Row>
+    <Row>
+      <DataRowNumber>50</DataRowNumber>
+      <Active>true</Active>
+      <OutputFile>electricalloadlistbrevmethod012.xlsm</OutputFile>
+      <ExpectedResource>A34\Electrical Load List B_RevMethod_0,1,2_source.xlsm</ExpectedResource>
+      <DocumentID>91F3B5D3D8EA40F88D8F0784FE25DD8A</DocumentID>
+      <DocumentType>5</DocumentType>
+      <PlantName>A34</PlantName>
+      <ProjectName>A34</ProjectName>
+      <SiteServer>\\localhost\sites\site_a34\smartplantv4.ini</SiteServer>
+      <HierarchyPath>\A\AEC</HierarchyPath>
+      <OracleAlias />
+      <OracleHost />
+      <OraclePort>0</OraclePort>
+      <OracleService />
+      <OperatingCases />
+      <CalcPDBLoadSum>0</CalcPDBLoadSum>
+      <CoupledBusesInPDBLoad>0</CoupledBusesInPDBLoad>
+      <CalculateTransformerLosses>0</CalculateTransformerLosses>
+      <LoadSummaryReportRatedConsumed>0</LoadSummaryReportRatedConsumed>
+      <LoadSummaryReportCompensatedUncompensated>0</LoadSummaryReportCompensatedUncompensated>
+      <CalculateAccordingLargestLoad>0</CalculateAccordingLargestLoad>
+      <CompareWithRevision>false</CompareWithRevision>
+      <CompareResultExpected />
+      <CompareResultFile />
+      <RevisionID />
+    </Row>
+  </NewDataSet>
+</Rows>
